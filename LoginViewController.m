@@ -37,6 +37,8 @@
 */
 
 - (IBAction)towolf:(id)sender {
+    
+    NSLog(@"hello world!!!");
  [(AppDelegate *)[UIApplication sharedApplication].delegate switchToWolf];
 }
 @end
